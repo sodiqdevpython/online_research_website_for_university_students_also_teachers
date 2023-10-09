@@ -1,5 +1,7 @@
 # online_research_website_for_university_students_also_teachers
+
 # O'zbek tilida
+Ushbu loyiha universitet talabalari uchun yordam beradi ya'ni masalan siz talabasiz siz va sizning o'qituvchingiz birgalikda izlanish olib borib ma'lumotlar yig'ib ularni o'zaro bir vaqtda sinxron tarzda o'zgartirib yangilash va ma'lumotlar qo'shishingiz mumkin tashqi ko'rinish design ga e'tibor qaratmaganim uchun kechirasiz :)
 O'rnatish
 1.Ushbu loyihadan clone qilib olasiz
 2.Virtual muhit o'rnatasiz python -m venv env orqali
@@ -15,6 +17,8 @@ O'rnatish
 
 
 # In English language
+This project is useful for university students, for example, you are a student, you and your teacher can search together, collect data, change them synchronously, update and add data to each other. Sorry for not paying attention to the visual design :)
+
 Installation
 1. You can clone from this option
 2. You install a virtual environment through python -m venv env
@@ -29,7 +33,9 @@ Installation
   password: 1
 
 
-# На русском языке
+# На Русском языке
+Этот проект полезен для студентов вузов, например вы студент, вы и ваш преподаватель можете вместе искать, собирать данные, синхронно их изменять, обновлять и добавлять данные друг к другу. Извините, что не обратили внимания на визуальное оформление :)
+
 Installation
 1. Вы можете клонировать с помощью этой опции
 2. Вы устанавливаете виртуальную среду через python -m venv env.
