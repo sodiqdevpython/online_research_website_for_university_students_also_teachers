@@ -19,5 +19,3 @@ class ArticleAdmin(admin.ModelAdmin):
     ]
 
 # Register your models here.
-admin.site.register(ArticleSeries, ArticleSeriesAdmin)
-admin.site.register(Article, ArticleAdmin)

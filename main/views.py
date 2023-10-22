@@ -127,7 +127,7 @@ def series_delete(request, series):
                 }
             )
 
-@user_is_superuser
+
 def article_update(request, series, article):
     matching_article = Article.objects.filter(series__slug=series, article_slug=article).first()
 

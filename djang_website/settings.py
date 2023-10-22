@@ -210,7 +210,7 @@ TINYMCE_DEFAULT_CONFIG = {
     'contextmenu': 'formats | link image',
     'block_formats': 'Paragraph=p; Header 1=h1; Header 2=h2',
     'fontsize_formats': "8pt 10pt 12pt 14pt 16pt 18pt",
-    'content_style': "body { font-family: Arial; background: white; color: black; font-size: 12pt}",
+    'content_style': "body { font-family: Times New Roman; background: white; color: black; font-size: 14pt}",
     'codesample_languages': [
         {'text': 'Python', 'value': 'python'}, {'text': 'HTML/XML', 'value': 'markup'},],
     'image_class_list': [{'title': 'Fluid', 'value': 'img-fluid', 'style': {} }],

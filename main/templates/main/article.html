@@ -1,6 +1,6 @@
 {% extends "main/header.html" %}
 {% block content %}
-<div class="row media content-section mobiledevice">
+<div class="row media container content-section mobiledevice">
     <div class="col-lg-12 col-md-12 col-sm-12">
         <div class="d-flex">
             <div>
@@ -18,7 +18,7 @@
                     <a class="btn btncolor btn-sm mt-1 mb-1" href="{% url 'article_update' object.series.slug object.article_slug %}">Yangilash</a>
                     <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'article_delete' object.series.slug object.article_slug  %}">O'chirish</a>
                 </div>
-            {% elif user.is_superuser %}
+            {% elif user.is_staff %}
                 <div class="ml-auto">
                     <a class="btn btncolor btn-sm mt-1 mb-1" href="{% url 'article_update' object.series.slug object.article_slug %}">Yangilash</a>
                 </div>

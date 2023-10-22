@@ -3,6 +3,7 @@
     <div class="row display-flex justify-content-start">
     {% for object in objects %}
         <div class="col-lg-4 col-md-6 col-sm-12 mobiledevice">
+            {% if user.is_staff %}
             <article class="media content-section customhover" style="height: 95%;">
                 <div class="media-body">
                     <a href="/{{object.slug}}">
@@ -35,6 +36,7 @@
                     </div>
                 </div>
             </article>
+            {% endif %}
         </div>
     {% endfor %}
     </div>
